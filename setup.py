@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cfgrep",
-    version=1.0,
+    version="0.9.0",
     description="cfgrep is Cisco Config Context-aware Check grep",
     author="toshayas",
     author_email='toshayas@cisco.com',
