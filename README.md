@@ -34,7 +34,7 @@ Options:
 ```
 
 ### options
-See [examples-xr.md](https://github.com/tk-hayashi/cfgrep/blob/master/examples-xr.md) and [examples-ios.md](https://github.com/tk-hayashi/cfgrep/blob/master/.md)  for details of options
+See [examples-xr.md](https://github.com/tk-hayashi/cfgrep/blob/master/examples-xr.md) and [examples-ios.md](https://github.com/tk-hayashi/cfgrep/blob/master/examples-ios.md)  for details of options
 
 |  option  |  description  |
 | ---- | ---- |
