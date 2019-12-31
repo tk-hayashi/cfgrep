@@ -3,6 +3,11 @@
 cfgrep(c4grep, ccccgrep) is Cisco Config Context-aware Check grep
 
 ## Installing
+```
+pip install cfgrep
+```
+
+or
 
 ```
 pip install wheel git+https://github.com/tk-hayashi/cfgrep
@@ -29,7 +34,7 @@ Options:
 ```
 
 ### options
-See [examples-xr.md](examples-xr.md) and [examples-ios.md](examples-ios.md)  for details of options
+See [examples-xr.md](https://github.com/tk-hayashi/cfgrep/blob/master/examples-xr.md) and [examples-ios.md](https://github.com/tk-hayashi/cfgrep/blob/master/.md)  for details of options
 
 |  option  |  description  |
 | ---- | ---- |
@@ -43,4 +48,4 @@ See [examples-xr.md](examples-xr.md) and [examples-ios.md](examples-ios.md)  for
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the Apache License - see the [LICENSE](https://github.com/tk-hayashi/cfgrep/blob/master/LICENSE) file for details

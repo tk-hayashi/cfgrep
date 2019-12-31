@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="cfgrep",
-    version="0.9.0",
+    version="1.0.1",
     description="cfgrep is Cisco Config Context-aware Check grep",
     long_description=long_description,
     long_description_content_type="text/markdown",
