@@ -1,9 +1,14 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name="cfgrep",
     version="0.9.0",
     description="cfgrep is Cisco Config Context-aware Check grep",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="toshayas",
     author_email='toshayas@cisco.com',
     url='https://github.com/tk-hayashi/cfgrep',
@@ -19,5 +24,7 @@ setup(
     },
     classifiers=[
         'Programming Language :: Python :: 3.6',
+        "License :: OSI Approved :: Apache License",
+        "Operating System :: OS Independent",
     ]
 )
