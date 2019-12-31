@@ -5,7 +5,7 @@ cfgrep(c4grep, ccccgrep) is Cisco Config Context-aware Check grep
 ## Installing
 
 ```
-pip install git+https://github.com/tk-hayashi/cfgrep
+pip install wheel git+https://github.com/tk-hayashi/cfgrep
 ```
 
 ## Usage
