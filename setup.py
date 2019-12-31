@@ -8,7 +8,8 @@ setup(
     author_email='toshayas@cisco.com',
     url='https://github.com/tk-hayashi/cfgrep',
     packages=find_packages(),
-    install_requires=["ciscoconfparse",
+    install_requires=["wheel",
+                      "ciscoconfparse",
                       "netaddr",
                       "docopt"],
     entry_points={
