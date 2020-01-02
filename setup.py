@@ -5,12 +5,12 @@ with open("README.md", "r") as fh:
 
 setup(
     name="cfgrep",
-    version="1.0.3",
+    version="1.0.4",
     description="cfgrep is Cisco-like Config Context-aware Check grep",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="toshayas",
-    author_email='toshayas@cisco.com',
+    author_email='mohayashi@gmail.com',
     url='https://github.com/tk-hayashi/cfgrep',
     packages=find_packages(),
     install_requires=["wheel",

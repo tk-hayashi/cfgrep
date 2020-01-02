@@ -1,6 +1,10 @@
 # cfgrep
 
-cfgrep(c4grep, ccccgrep) is Cisc-like Config Context-aware Check grep
+cfgrep(c4grep, ccccgrep) is Cisco-like Config Context-aware Check grep
+
+[![Downloads](https://pepy.tech/badge/cfgrep)](https://pepy.tech/project/cfgrep)
+[![Downloads](https://pepy.tech/badge/cfgrep/month)](https://pepy.tech/project/cfgrep/month)
+[![Downloads](https://pepy.tech/badge/cfgrep/week)](https://pepy.tech/project/cfgrep/week)
 
 ## Installing
 ```
