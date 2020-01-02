@@ -1,6 +1,6 @@
 # cfgrep
 
-cfgrep(c4grep, ccccgrep) is Cisco Config Context-aware Check grep
+cfgrep(c4grep, ccccgrep) is Cisc-like Config Context-aware Check grep
 
 ## Installing
 ```
@@ -14,7 +14,7 @@ pip install wheel git+https://github.com/tk-hayashi/cfgrep
 ```
 
 ## Usage
-Regular expressions can be used in PATTERN like grep.
+Regular expressions can be used as PATTERN similar to grep.
 
 ```bash
 
@@ -40,7 +40,7 @@ See [examples-xr.md](https://github.com/tk-hayashi/cfgrep/blob/master/examples-x
 | ---- | ---- |
 |  -i  |  Interface mode. To display a config related to ipv4 and ipv6 address of the interfaces. |
 |  -b  |  BGP mode. To display a config related to route-policy(route-map) and bgp-group of the neighbors. |
-|  -d  |  Description mode. To use a indent parent of description as PATTERN. |
+|  -d  |  Description mode. To use a parent indent of description as PATTERN. |
 
 ## Authors
 

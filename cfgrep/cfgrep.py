@@ -7,7 +7,7 @@ from netaddr import IPAddress, IPNetwork
 class Cfgrep:
     def __init__(self, file_name):
         self.parse = CiscoConfParse(file_name)
-        self.os = 'xr'
+        self.os = 'ios'
         self.__check_os()
 
     def __check_os(self):
