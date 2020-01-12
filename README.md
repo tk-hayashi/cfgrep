@@ -7,15 +7,25 @@ cfgrep(c4grep, ccccgrep) is Cisco-like Config Context-aware Check grep
 [![Downloads](https://pepy.tech/badge/cfgrep/week)](https://pepy.tech/project/cfgrep/week)
 
 ## Installing
+
+pip from PyPI
 ```
 pip install cfgrep
 ```
 
-or
-
+, or pip from github
 ```
 pip install wheel git+https://github.com/tk-hayashi/cfgrep
 ```
+
+, or running setup.py
+
+```
+git clone https://github.com/tk-hayashi/cfgrep
+cd cfgrep
+python setup.py install
+```
+
 
 ## Usage
 Regular expressions can be used as PATTERN similar to grep.
